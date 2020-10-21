@@ -31,7 +31,7 @@ This program can run with browser.This program name is ddos html.A ddos html is 
 <ul>
 <li>git clone https://github.com/r3k4t/ddoshtml.git</li>
 <li>cd   ddoshtml   </li>
-<li>you can open ddoshtml with browser</li>
+<li> firefox ddos.html</li>
 </ul>
 
 ### Example ###
