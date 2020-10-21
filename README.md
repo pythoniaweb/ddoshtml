@@ -1,7 +1,7 @@
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/r3k4t/ddoshtml/blob/master/LICENSE) 
+[!Build](https://img.shields.io/badge/html/blue.svg)](https://www.computerhope.com/jargon/h/html.html)
 
-
-<h2>Ddos Html</h2>
+<h2>DDoS HtmL</h2>
 
 <h4>Author : RKT</h4>
 
