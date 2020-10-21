@@ -1,5 +1,5 @@
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/r3k4t/ddoshtml/blob/master/LICENSE) 
-[![Html-Css](https://img.shields.io/badge/html-css-blue.svg)](https://en.wikipedia.org/wiki/CSS)
+[![Css](https://img.shields.io/badge/css-blue.svg)](https://en.wikipedia.org/wiki/CSS)
 
 <h2>DDoS HtmL</h2>
 
