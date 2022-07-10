@@ -1,0 +1,11 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<iframe id="holder" style="display: none">
+
+
+<script type="text/javascript">
+$("#holder").load("http://www.google.com",function () {
+  $link = $("#holder").contents().find("#courses_menu");
+});
+</script>
