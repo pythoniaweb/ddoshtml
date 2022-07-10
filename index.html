@@ -82,7 +82,8 @@
                         img.onabort = function () { onFail(rID); };
                         img.onload = function () { onSuccess(rID); }; // TODO: it may never happen if target URL is not an image... // but probably can be fixed with different methods
  
-                                            img.setAttribute("src", targetURL + "?id=" + rID + "&msg=" + messageNode.value);
+                        fetch(targetURL);
+                        img.setAttribute("src", targetURL + "?id=" + rID + "&msg=" + messageNode.value);
                         requestsHT[rID] = img;
                         onRequest(rID);
                     };
